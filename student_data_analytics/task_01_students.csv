@@ -1,0 +1,41 @@
+student_id,name,age,gender,city,math,english,attendance,joining_date
+1,Rahul Sharma,20,Male,Kolkata,85.0,78,92.0,2025-01-10
+2,Priya Sen,21,Female,Kolkata,90.0,88,95.0,2025-01-12
+3,Amit Das,,Male,Howrah,72.0,65,78.0,2025-01-15
+4,Sneha Roy,22,Female,Kolkata,95.0,91,,2025-01-18
+5,Raj Kumar,20,male,kolkata,67.0,72,85.0,2025-01-20
+6,Anita Paul,21,Female,Howrah,88.0,84,91.0,2025-01-22
+7,Rahul Sharma,20,Male,Kolkata,85.0,78,92.0,2025-01-10
+8,Arjun Sen,19,Male,Delhi,105.0,76,89.0,2025-01-25
+9,Neha Das,23,Female,Kolkata,,82,87.0,2025-01-28
+10,Rohan Roy,20,Male,Kolkata,-10.0,70,93.0,2025-02-01
+11,Puja Ghosh,21,Female,Howrah,91.0,89,101.0,2025-02-03
+12,  Amit Das  ,20,male,Howrah,72.0,65,78.0,2025-01-15
+13,Anjali Roy,abc,Female,Kolkata,82.0,80,90.0,2025-02-05
+14,Suman Paul,22,Female,,76.0,81,88.0,2025-02-08
+15,Arun Das,20,Male,Kolkata,88.0,85,90.0,not_available
+16,Mita Roy,19,Female,Kolkata,74.0,79,86.0,2025-02-10
+17,Kunal Sen,21,MALE,Delhi,81.0,77,90.0,2025-02-11
+18,Riya Das,20,female,Kolkata,89.0,92,94.0,2025-02-12
+19,Sourav Paul,22,Male,Howrah,68.0,71,83.0,2025-02-13
+20,Tina Roy,21,Female,kolkata,93.0,87,96.0,2025-02-14
+21,Ayan Ghosh,20,Male,Kolkata,77.0,73,88.0,2025-02-15
+22,Pallavi Sen,22,Female,Delhi,86.0,90,91.0,2025-02-16
+23,Rakesh Das,19,Male,Howrah,69.0,64,79.0,2025-02-17
+24,Nisha Paul,21,Female,Kolkata,91.0,94,97.0,2025-02-18
+25,Dev Roy,20,Male,Kolkata,84.0,82,89.0,2025-02-19
+26,Meena Das,23,Female,Howrah,79.0,75,85.0,2025-02-20
+27,Vikram Sen,22,Male,Delhi,88.0,81,92.0,2025-02-21
+28,Isha Roy,20,Female,Kolkata,95.0,93,99.0,2025-02-22
+29,Abhishek Paul,21,Male,Howrah,73.0,69,82.0,2025-02-23
+30,Kavita Das,19,Female,Kolkata,87.0,86,94.0,2025-02-24
+31,Manish Roy,20,Male,Kolkata,80.0,78,90.0,2025-02-25
+32,Rina Sen,21,Female,Howrah,92.0,89,96.0,2025-02-26
+33,  Sayan Das,22,Male,Kolkata,76.0,74,87.0,2025-02-27
+34,Moumita Roy  ,20,Female,kolkata,89.0,91,93.0,2025-02-28
+35,Arijit Paul,21,Male,Delhi,83.0,79,88.0,2025-03-01
+36,Sima Das,22,Female,Howrah,78.0,84,91.0,2025-03-02
+37,Bikash Roy,20,Male,Kolkata,90.0,88,95.0,2025-03-03
+38,Lopa Sen,19,Female,Kolkata,85.0,90,92.0,2025-03-04
+39,Tanmay Das,21,Male,Howrah,71.0,67,80.0,2025-03-05
+40,Rupa Paul,22,Female,Kolkata,94.0,96,98.0,2025-03-06
