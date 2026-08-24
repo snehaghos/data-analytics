@@ -11,8 +11,13 @@
 # Grand Total: ₹ 51,050.00
 # Refund: -₹1,200.50
 
+import sys
 import re
 from decimal import Decimal, InvalidOperation
+
+# Fix Windows console encoding for rupee symbol
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 # Regex Explanation (plain English):
 # - -?\s*₹\s*  => optional minus sign, optional whitespace, the ₹ symbol, optional whitespace
@@ -80,7 +85,8 @@ for r in problem_05(test3):
 
 test4 = """No currency symbols at all. Just 12345.67"""
 print("\nTest Case 4: No rupee symbols")
-print(problem_04 if False else problem_05(test4))
+for r in problem_05(test4):
+    print(f"  {r}")
 
 test5 = """Negative huge: -₹1,00,000.00
 Positive small: ₹ 0.50"""

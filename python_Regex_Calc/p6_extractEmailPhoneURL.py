@@ -17,23 +17,13 @@
 # 40. Remove trailing punctuation from URLs if present.
 # 41. Return a dictionary containing emails, phones, and URLs.
 
+import sys
 import re
 
-# Regex Explanation (plain English):
-#
-# EMAIL:
-# - [A-Za-z0-9._%+-]+  => username part (alphanumeric + allowed symbols)
-# - @                   => at sign
-# - [A-Za-z0-9.-]+      => domain name
-# - \.[A-Za-z]{2,}      => TLD (at least 2 letters)
-#
-# PHONE (Indian):
-# - (?:\+91\s*)?        => optional +91 with optional space
-# - [6-9]\d{4}\s*\d{5}  => 10-digit Indian mobile: starts with 6-9, then 4 digits, optional space, 5 digits
-#
-# URL:
-# - https?://           => http:// or https://
-# - [^\s<>"'.,;:!?\)]+  => everything up to whitespace or trailing punctuation
+
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
 
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 PHONE_PATTERN = re.compile(r"(?:\+91\s*)?[6-9]\d{4}\s*\d{5}")
@@ -46,7 +36,7 @@ def problem_06(text):
     raw_phones = PHONE_PATTERN.findall(text)
     raw_urls = URL_PATTERN.findall(text)
 
-    # Clean trailing punctuation from URLs
+
     clean_urls = [re.sub(r"[.,;:!?)]+$", "", u) for u in raw_urls]
 
     print("Raw emails:", raw_emails)
